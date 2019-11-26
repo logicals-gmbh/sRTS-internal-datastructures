@@ -1,0 +1,37 @@
+## Copyright (C) logi.cals GmbH. All rights reserved.
+
+#=================
+#eclipse-workspace
+#=================
+
+#=================
+#eclipse-project
+#=================
+
+#=================
+#python files
+#=================
+**/__pycache__
+
+#=================
+#editor, IDE files
+#=================
+**/*.*~
+**/*.swp
+tags
+compile_commands.json
+index
+.vscode/*.vc.db*
+.vscode/ipch
+
+#=================
+#built files
+#=================
+build
+
+#=================
+#binary artifacts
+#=================
+**/*.o
+unittest
+main
