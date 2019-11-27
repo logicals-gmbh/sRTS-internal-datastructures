@@ -8,6 +8,7 @@ typedef enum tag_Fake
   UNDEFINED = 0
 } Fake;
 
+/* this check does not compute on all compilers, e. g. msvc */
 static void CompileTimeCheck(void)
 {
   Fake f = UEBER_SIZE - sizeof(Ueber);
